@@ -1,0 +1,20 @@
+function perimetroCirculo(radio) {
+  return radio*2*3,14
+}
+
+function areaCirculo(radio){
+  return 3,14*radio*radio
+}
+
+function areaCuadrado(base, altura){
+  return base*altura
+}
+
+function rectangulo(tipoDeOperacion, base, altura){
+if tipoDeOperacion="AREA"
+  return base*altura
+else if tipoDeOperacion=="PERIMETRO"
+ return (base+altura)*2
+else
+  return 0
+}
