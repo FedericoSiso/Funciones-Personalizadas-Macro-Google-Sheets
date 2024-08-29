@@ -1,19 +1,46 @@
+/** 
+* @param (number) Input the value to multiply.
+*
+* @return The imput multiplied by 2.
+* @customFunction
+ */
+
 function perimetroCirculo(radio) {
   return radio*2*3,14
 }
-
+/** 
+* 
+ * @param (number) tipo numero describe el radio del circulo.
+ *
+ * @return Indica el area del circulo.
+ * @customFunction
+*/
 function areaCirculo(radio){
   return 3,14*radio*radio
 }
-
+/** 
+* 
+ * @param (number) tipo numero describe la base del cuadrado.
+ * @param (number) tipo numero describe la altura del cuadrado.
+ *
+ * @return Indica el area del cuadrado.
+ * @customFunction
+*/
 function areaCuadrado(base, altura){
   return base*altura
 }
-
+/** 
+ * @param () tipo operacion describe la operacion a realizar AREA y PERIMETRO.
+ * @param (number) tipo numero describe la base del cuadrado.
+ * @param (number) tipo numero describe la altura del cuadrado.
+ *
+ * @return Indica el tipo de operacion area y el tipo de operacion perimetro.
+ * @customFunction
+*/
 function rectangulo(tipoDeOperacion, base, altura){
-if tipoDeOperacion="AREA"
+if (tipoDeOperacion == "AREA")
   return base*altura
-else if tipoDeOperacion=="PERIMETRO"
+else if (tipoDeOperacion == "PERIMETRO")
  return (base+altura)*2
 else
   return 0
