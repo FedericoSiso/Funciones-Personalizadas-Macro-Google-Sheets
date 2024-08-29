@@ -1,3 +1,3 @@
-/*
+
 Son funciones realizadas en google sheets para macros utilizando el App Script para generar funciones personalizadas.
-*/
+
